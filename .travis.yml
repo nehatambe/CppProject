@@ -1,0 +1,8 @@
+language: cpp
+compiler: 
+    - gcc
+    - clang
+
+install: true
+script: ./configure && make
+
