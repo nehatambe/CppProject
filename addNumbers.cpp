@@ -7,6 +7,7 @@ int addNumbers(int a, int b) {
 }
 int main()
 {
+	cout<<"Hello";
 	cout << "Sum is: " << addNumbers(3, 4);
 
 	return 0;
