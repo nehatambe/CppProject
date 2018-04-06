@@ -1,11 +1,11 @@
 
 CXXFLAGS = -g -Wall -Wfatal-errors -std=c++17
 
-ALL = hello
+ALL = addNumbers
 
 all: $(ALL)
 
-hello: addNumbers.cpp Makefile
+addNumbers: addNumbers.cpp Makefile
 	$(CXX) $(CXXFLAGS) -o $@ $@.cpp
 
 clean:
