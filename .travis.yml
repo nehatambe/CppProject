@@ -4,5 +4,7 @@ compiler:
     - clang
 
 install: true
-script: ./configure && make
+script: 
+    - g++ main.cpp -std=c++17 -o travis_gcc_cpp17
+    - ./travis_gcc_cpp17
 
