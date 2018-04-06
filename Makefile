@@ -1,5 +1,5 @@
 
-CXXFLAGS = -g -Wall -Wfatal-errors -std=c++17
+CXXFLAGS = -g -Wall -Wfatal-errors -std=c++14
 
 ALL = addNumbers
 
